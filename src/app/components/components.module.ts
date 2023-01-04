@@ -9,10 +9,10 @@ import { C4Component } from './c4/c4.component';
 
 @NgModule({
   declarations: [
-    C1Component,
-    C2Component,
-    C3Component,
-    C4Component
+    // C1Component,
+    // C2Component,
+    // C3Component,
+    // C4Component
   ],
   imports: [
     CommonModule
