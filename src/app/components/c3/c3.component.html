@@ -1,1 +1,22 @@
-<p>c3 works!</p>
+<!-- <p>c3 works!</p> -->
+
+<!-- C3 COMPONENTE DE INGRESO DE DATOS -->
+<div class="border w-2/4 mx-auto text-center py-20">
+    <div class="mb-5">
+        <input class="border rounded-lg text-center" type="text" 
+        placeholder="Ingresa nombre tarea" size="38" #tarea>
+        <!-- {{tarea}} -->
+    </div>
+    <div class="mb-5">
+        <textarea class="border rounded-lg text-center" name="" id="" cols="40"
+        rows="6" placeholder="Ingresa Descripcion" #descripcion></textarea>
+        <!-- {{descripcion}} -->
+    </div>
+    <div>
+        <button class="bg-blue-400 rounded-lg text-white w-40 h-10" 
+        (click)="enviarDatos(tarea.value, descripcion.value)">Guardar</button>
+    </div>
+</div>
+
+<app-c5></app-c5>
+<!-- [nombreHijo]="nombre" -->

@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class C3Component {
 
+  // tarea!:string;
+  // descripcion!:string;
+  datoTareas = [''];
+  datoDescripcion = [''];
+
+  enviarDatos(tarea:string, descripcion:string){
+    this.datoTareas.push(tarea);
+    this.datoTareas.push(descripcion);
+    console.log(this.datoTareas)
+  }
 }

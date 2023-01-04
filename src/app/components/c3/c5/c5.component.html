@@ -1,0 +1,21 @@
+<!-- <p>c5 works!</p> -->
+
+<!-- C5 componente hijo que mostrara el resultado  -->
+<div class="border w-2/4 mx-auto text-center py-20 mt-5">
+    <div class="mb-5">
+        <p>Lista de Tareas</p>
+    </div>
+    <div class="mb-5 border rounded-lg mx-10">
+        <!-- {{resultado}} -->
+        <!-- <ul class="list-disc">
+            <li>Tarea1</li>
+            <li>Tarea2</li>
+            <li>Tarea3</li>
+        </ul> -->
+        <ul>
+            <div *ngFor="let resDato of datoTareas">
+                <li>{{resDato}}</li>
+            </div>
+        </ul>
+    </div>
+</div>
